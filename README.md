@@ -1,4 +1,4 @@
-# climate-chart-r
+# How to create a climate chart in R Studio
 This project demonstrates how to create a simple climate diagram in R using temperature and precipitation data. The script visualizes monthly averages in a clear and easy-to-understand plot.
 
 **These are example values and can be adjusted as needed.**
