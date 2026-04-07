@@ -1,0 +1,15 @@
+library(berryFunctions)
+
+rain <- c(77, 116, 198, 187, 196, 42, 10, 22, 142, 304, 238, 90)
+
+temp <- c(23.6,24.1 , 24.1,24.1, 23.7, 22.6, 21.5, 21.9, 22.8, 23.0, 23.3, 23.5)
+
+Title_Walter_Lieth <- "Mitzic, Gabun\n00\u00B047' N / 11\u00B032' E\n583 m aSL"
+
+climateGraph(temp, rain, main = Title_Walter_Lieth,
+             units = c("\u00B0C", "mm"), labs = substr(month.abb, 1, 1), textprop = 0.25,
+             ylim = range(temp, rain/2), compress = TRUE, ticklab = -8:30 * 10,
+             ticklin = -15:60 * 5, box = TRUE, mar = c(3, 4, 6, 4),
+             keeppar = TRUE, colrain = "blue", coltemp = "red", lwd = 2,
+             arghumi = NULL, argarid = NULL, argcomp = NULL, arggrid = NULL,
+             argtext = NULL)
