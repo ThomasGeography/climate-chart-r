@@ -7,4 +7,4 @@ This project demonstrates how to create a simple climate diagram in R using temp
 
 For exporting as PNG, I recommend using a width of 1000 and a height of 600 to ensure the image is clearly readable and well proportioned.
 
-<img width="1318" height="1080" alt="image" src="https://github.com/user-attachments/assets/4baf5182-e979-48db-8a25-dcd89750f25b" />
+<img width="1312" height="1070" alt="Screenshot 2026-04-07 1925053" src="https://github.com/user-attachments/assets/00e1f82b-0cbd-4aeb-99c9-bd964afee1f3" />
